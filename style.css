@@ -1,15 +1,16 @@
 
-@media screen and (max-width: 768px) {
-    .container {
-        display: grid;
-        grid-template: repeat(2, 2fr) / 350px 1fr;
+@media screen and (max-width: 768px) { 
 
+    .card {
+    display: grid;
+    grid-template: repeat(2, 2fr) / 350px 1fr;
     }
 }
+   
 
 
 @media screen and (max-width: 375px) {
-    .container {
+    .card {
         display: grid;
         grid-template: repeat(1, 500px) / 350px;
     }
